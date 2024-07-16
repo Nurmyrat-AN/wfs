@@ -46,12 +46,10 @@ const sendMessage = async () => {
 
 
     const result = await transporter.sendMail({
-        from: '"Node js" <hidonicontrol@gmail.com>',
+        from: '"WFSGlobal" <hidonicontrol@gmail.com>',
         to: 'nurmyratnurmyrat457@gmail.com',
-        subject: 'Message from Node js',
-        text: 'This message was sent from Node js server.',
-        html:
-            'This <i>message</i> was sent from <strong>Node js</strong> server.',
+        subject: 'WFSGlobal registration',
+        text: 'The Server is Working!.',
     })
     return result
 }
